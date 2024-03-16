@@ -1,0 +1,24 @@
+{
+  "originHash" : "833afe0982801b48178b6d2002794205f5462bc6bda45c3b8bd9a4b73cce8777",
+  "pins" : [
+    {
+      "identity" : "runestone",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/simonbs/Runestone",
+      "state" : {
+        "branch" : "feature/stringsyntaxhighlighter",
+        "revision" : "b60295db363d30557910e5ae0cbabeee2867e439"
+      }
+    },
+    {
+      "identity" : "tree-sitter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tree-sitter/tree-sitter",
+      "state" : {
+        "revision" : "98be227227af10cc7a269cb3ffb23686c0610b17",
+        "version" : "0.20.9"
+      }
+    }
+  ],
+  "version" : 3
+}

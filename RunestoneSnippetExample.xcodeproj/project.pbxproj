@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		725ABC622BA5C906004D0D2E /* RunestoneSnippetExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725ABC612BA5C906004D0D2E /* RunestoneSnippetExampleApp.swift */; };
+		725ABC642BA5C906004D0D2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725ABC632BA5C906004D0D2E /* ContentView.swift */; };
+		725ABC662BA5C907004D0D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725ABC652BA5C907004D0D2E /* Assets.xcassets */; };
+		725ABC692BA5C907004D0D2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725ABC682BA5C907004D0D2E /* Preview Assets.xcassets */; };
+		725ABC702BA5CBD5004D0D2E /* SnippetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725ABC6F2BA5CBD5004D0D2E /* SnippetView.swift */; };
+		725ABC732BA5CD7F004D0D2E /* Runestone in Frameworks */ = {isa = PBXBuildFile; productRef = 725ABC722BA5CD7F004D0D2E /* Runestone */; };
+		725ABC762BA5CE75004D0D2E /* RunestoneOneDarkTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 725ABC752BA5CE75004D0D2E /* RunestoneOneDarkTheme */; };
+		725ABC782BA5CE75004D0D2E /* RunestonePlainTextTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 725ABC772BA5CE75004D0D2E /* RunestonePlainTextTheme */; };
+		725ABC7A2BA5CE75004D0D2E /* RunestoneThemeCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 725ABC792BA5CE75004D0D2E /* RunestoneThemeCommon */; };
+		725ABC7C2BA5CE75004D0D2E /* RunestoneTomorrowNightTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 725ABC7B2BA5CE75004D0D2E /* RunestoneTomorrowNightTheme */; };
+		725ABC7E2BA5CE75004D0D2E /* RunestoneTomorrowTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 725ABC7D2BA5CE75004D0D2E /* RunestoneTomorrowTheme */; };
+		725ABC872BA5CEA8004D0D2E /* RunestoneJavaScriptLanguage in Frameworks */ = {isa = PBXBuildFile; productRef = 725ABC862BA5CEA8004D0D2E /* RunestoneJavaScriptLanguage */; };
+		725ABC892BA5CEFE004D0D2E /* ThemeSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725ABC882BA5CEFE004D0D2E /* ThemeSetting.swift */; };
+		72F853BD2BA5E05C0026141B /* UIKitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F853BC2BA5E05C0026141B /* UIKitLabel.swift */; };
+		72F853C32BA5FD040026141B /* Runestone in Frameworks */ = {isa = PBXBuildFile; productRef = 72F853C22BA5FD040026141B /* Runestone */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		725ABC5E2BA5C906004D0D2E /* RunestoneSnippetExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunestoneSnippetExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725ABC612BA5C906004D0D2E /* RunestoneSnippetExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunestoneSnippetExampleApp.swift; sourceTree = "<group>"; };
+		725ABC632BA5C906004D0D2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		725ABC652BA5C907004D0D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725ABC682BA5C907004D0D2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		725ABC6F2BA5CBD5004D0D2E /* SnippetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetView.swift; sourceTree = "<group>"; };
+		725ABC882BA5CEFE004D0D2E /* ThemeSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSetting.swift; sourceTree = "<group>"; };
+		72F853BC2BA5E05C0026141B /* UIKitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725ABC5B2BA5C906004D0D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725ABC732BA5CD7F004D0D2E /* Runestone in Frameworks */,
+				725ABC782BA5CE75004D0D2E /* RunestonePlainTextTheme in Frameworks */,
+				725ABC762BA5CE75004D0D2E /* RunestoneOneDarkTheme in Frameworks */,
+				725ABC7A2BA5CE75004D0D2E /* RunestoneThemeCommon in Frameworks */,
+				72F853C32BA5FD040026141B /* Runestone in Frameworks */,
+				725ABC7C2BA5CE75004D0D2E /* RunestoneTomorrowNightTheme in Frameworks */,
+				725ABC7E2BA5CE75004D0D2E /* RunestoneTomorrowTheme in Frameworks */,
+				725ABC872BA5CEA8004D0D2E /* RunestoneJavaScriptLanguage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725ABC552BA5C906004D0D2E = {
+			isa = PBXGroup;
+			children = (
+				725ABC602BA5C906004D0D2E /* RunestoneSnippetExample */,
+				725ABC5F2BA5C906004D0D2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		725ABC5F2BA5C906004D0D2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725ABC5E2BA5C906004D0D2E /* RunestoneSnippetExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725ABC602BA5C906004D0D2E /* RunestoneSnippetExample */ = {
+			isa = PBXGroup;
+			children = (
+				725ABC612BA5C906004D0D2E /* RunestoneSnippetExampleApp.swift */,
+				725ABC632BA5C906004D0D2E /* ContentView.swift */,
+				725ABC6F2BA5CBD5004D0D2E /* SnippetView.swift */,
+				725ABC882BA5CEFE004D0D2E /* ThemeSetting.swift */,
+				72F853BC2BA5E05C0026141B /* UIKitLabel.swift */,
+				725ABC652BA5C907004D0D2E /* Assets.xcassets */,
+				725ABC672BA5C907004D0D2E /* Preview Content */,
+			);
+			path = RunestoneSnippetExample;
+			sourceTree = "<group>";
+		};
+		725ABC672BA5C907004D0D2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				725ABC682BA5C907004D0D2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725ABC5D2BA5C906004D0D2E /* RunestoneSnippetExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725ABC6C2BA5C907004D0D2E /* Build configuration list for PBXNativeTarget "RunestoneSnippetExample" */;
+			buildPhases = (
+				725ABC5A2BA5C906004D0D2E /* Sources */,
+				725ABC5B2BA5C906004D0D2E /* Frameworks */,
+				725ABC5C2BA5C906004D0D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunestoneSnippetExample;
+			packageProductDependencies = (
+				725ABC722BA5CD7F004D0D2E /* Runestone */,
+				725ABC752BA5CE75004D0D2E /* RunestoneOneDarkTheme */,
+				725ABC772BA5CE75004D0D2E /* RunestonePlainTextTheme */,
+				725ABC792BA5CE75004D0D2E /* RunestoneThemeCommon */,
+				725ABC7B2BA5CE75004D0D2E /* RunestoneTomorrowNightTheme */,
+				725ABC7D2BA5CE75004D0D2E /* RunestoneTomorrowTheme */,
+				725ABC862BA5CEA8004D0D2E /* RunestoneJavaScriptLanguage */,
+				72F853C22BA5FD040026141B /* Runestone */,
+			);
+			productName = ShareSnippetExample;
+			productReference = 725ABC5E2BA5C906004D0D2E /* RunestoneSnippetExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725ABC562BA5C906004D0D2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					725ABC5D2BA5C906004D0D2E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 725ABC592BA5C906004D0D2E /* Build configuration list for PBXProject "RunestoneSnippetExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725ABC552BA5C906004D0D2E;
+			packageReferences = (
+				725ABC742BA5CE75004D0D2E /* XCLocalSwiftPackageReference "Themes" */,
+				725ABC852BA5CEA8004D0D2E /* XCLocalSwiftPackageReference "Languages" */,
+				72F853C12BA5FD040026141B /* XCRemoteSwiftPackageReference "Runestone" */,
+			);
+			productRefGroup = 725ABC5F2BA5C906004D0D2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725ABC5D2BA5C906004D0D2E /* RunestoneSnippetExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725ABC5C2BA5C906004D0D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725ABC692BA5C907004D0D2E /* Preview Assets.xcassets in Resources */,
+				725ABC662BA5C907004D0D2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725ABC5A2BA5C906004D0D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725ABC642BA5C906004D0D2E /* ContentView.swift in Sources */,
+				72F853BD2BA5E05C0026141B /* UIKitLabel.swift in Sources */,
+				725ABC702BA5CBD5004D0D2E /* SnippetView.swift in Sources */,
+				725ABC892BA5CEFE004D0D2E /* ThemeSetting.swift in Sources */,
+				725ABC622BA5C906004D0D2E /* RunestoneSnippetExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		725ABC6A2BA5C907004D0D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725ABC6B2BA5C907004D0D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725ABC6D2BA5C907004D0D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RunestoneSnippetExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.ShareSnippetExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		725ABC6E2BA5C907004D0D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RunestoneSnippetExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.ShareSnippetExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725ABC592BA5C906004D0D2E /* Build configuration list for PBXProject "RunestoneSnippetExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725ABC6A2BA5C907004D0D2E /* Debug */,
+				725ABC6B2BA5C907004D0D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725ABC6C2BA5C907004D0D2E /* Build configuration list for PBXNativeTarget "RunestoneSnippetExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725ABC6D2BA5C907004D0D2E /* Debug */,
+				725ABC6E2BA5C907004D0D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		725ABC742BA5CE75004D0D2E /* XCLocalSwiftPackageReference "Themes" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Themes;
+		};
+		725ABC852BA5CEA8004D0D2E /* XCLocalSwiftPackageReference "Languages" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Languages;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72F853C12BA5FD040026141B /* XCRemoteSwiftPackageReference "Runestone" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simonbs/Runestone";
+			requirement = {
+				branch = feature/stringsyntaxhighlighter;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		725ABC722BA5CD7F004D0D2E /* Runestone */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Runestone;
+		};
+		725ABC752BA5CE75004D0D2E /* RunestoneOneDarkTheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RunestoneOneDarkTheme;
+		};
+		725ABC772BA5CE75004D0D2E /* RunestonePlainTextTheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RunestonePlainTextTheme;
+		};
+		725ABC792BA5CE75004D0D2E /* RunestoneThemeCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RunestoneThemeCommon;
+		};
+		725ABC7B2BA5CE75004D0D2E /* RunestoneTomorrowNightTheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RunestoneTomorrowNightTheme;
+		};
+		725ABC7D2BA5CE75004D0D2E /* RunestoneTomorrowTheme */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RunestoneTomorrowTheme;
+		};
+		725ABC862BA5CEA8004D0D2E /* RunestoneJavaScriptLanguage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RunestoneJavaScriptLanguage;
+		};
+		72F853C22BA5FD040026141B /* Runestone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72F853C12BA5FD040026141B /* XCRemoteSwiftPackageReference "Runestone" */;
+			productName = Runestone;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 725ABC562BA5C906004D0D2E /* Project object */;
+}
