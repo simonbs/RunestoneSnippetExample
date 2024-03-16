@@ -1,5 +1,5 @@
 {
-  "originHash" : "833afe0982801b48178b6d2002794205f5462bc6bda45c3b8bd9a4b73cce8777",
+  "originHash" : "d9374f1ce02e30892d3bb6f9c0baea8c04e123c242d3597d03436ae68dda25d2",
   "pins" : [
     {
       "identity" : "runestone",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/simonbs/Runestone",
       "state" : {
         "branch" : "feature/stringsyntaxhighlighter",
-        "revision" : "b60295db363d30557910e5ae0cbabeee2867e439"
+        "revision" : "d10471e001040f49622e75382fd5ca65887e09a7"
       }
     },
     {
